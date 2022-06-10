@@ -1,5 +1,11 @@
-#a = int(input())
-#print (a >= 10 and a < 100)
-
 a = int(input())
-print (10 <= a < 100)
+b = int(input())
+if b != 0:
+    print(a / b)
+else:
+    print('Деление невозможно')
+    b = int(input('Введите ненулевое значение '))
+    if b == 0:
+        print('Потрачено')
+    else:
+        print(a / b)

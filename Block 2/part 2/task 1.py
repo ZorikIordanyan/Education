@@ -1,1 +1,1 @@
-print
+printa(A)

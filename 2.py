@@ -1,5 +1,9 @@
-n = int(input())
-if n % 4 == 0 and n % 100 != 0 or n % 400 == 0:
-    print('Високосный')
-else:
-    print('Обычный')
+i = 0
+s = 0
+while i < 10:
+    i = i + 1
+    s = s + i
+    if s > 15:
+        continue
+    i = i + 1
+    print(s)

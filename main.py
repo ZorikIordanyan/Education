@@ -1,8 +1,11 @@
-i = 0
+i =0
 while i < 5:
-    print('*')
-    if i % 2 == 0:
-        print('**')
-    if i > 2:
-        print('***')
-    i = i + 1
+    a, b = input().split()
+    a = int(a)
+    b = int(b)
+    if (a == 0) and (b == 0):
+        break # Досрочно завершаем цикл
+    if (a == 0) or (b == 0):
+        continue # переходим к следующей итерации
+    print(a * b)
+    i += 1
